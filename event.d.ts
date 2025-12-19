@@ -8,7 +8,7 @@ declare namespace Popolo {
       end_date?: string;
       location?: string;
       status?: string;
-      idenfitiers?: Common.Identifier[];
+      identifiers?: Common.Identifier[];
       classification?: string;
       organization_id?: string;
       organization?: Organization.Organization;
