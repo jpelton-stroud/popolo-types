@@ -10,11 +10,8 @@ declare namespace Popolo {
       sort_name?: string;
     }
 
-    interface Person {
-      id?: string;
-      name?: string;
-      alternate_name?: OtherName[];
-      former_name?: OtherName[];
+    interface Person extends PersonName {
+      other_names?: OtherName[];
       identifiers?: Identifier[];
       email?: string;
       gender?: "male" | "female" | "non-binary";

@@ -1,6 +1,6 @@
 {
   "name": "popolo-types",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Typescript definitions for working with the Popolo Project",
   "main": "",
   "types": "index.d.ts",
