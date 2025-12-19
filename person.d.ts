@@ -1,6 +1,5 @@
 declare namespace Popolo {
-  namespace Person {
-    interface Name {
+    interface PersonName {
       id?: string;
       name?: string;
       family_name?: string;
@@ -14,9 +13,9 @@ declare namespace Popolo {
     interface Person {
       id?: string;
       name?: string;
-      alternate_name?: Common.OtherName[];
-      former_name?: Common.OtherName[];
-      identifiers?: Common.Identifier[];
+      alternate_name?: OtherName[];
+      former_name?: OtherName[];
+      identifiers?: Identifier[];
       email?: string;
       gender?: "male" | "female" | "non-binary";
       pronouns?: string;
@@ -26,15 +25,14 @@ declare namespace Popolo {
       summary?: string;
       biography?: string;
       national_identity?: string;
-      contact_details?: Common.ContactDetail[];
-      links?: Common.Link[];
-      memberships?: Organization.Membership[];
-      motions?: Motion.Motion[];
-      speeches?: Speech.Speech[];
-      votes?: Vote.Vote[];
+      contact_details?: ContactDetail[];
+      links?: Link[];
+      memberships?: Membership[];
+      motions?: Motion[];
+      speeches?: Speech[];
+      votes?: Vote[];
       created_at?: string;
       updated_at?: string;
-      sources?: Common.Link[];
+      sources?: Link[];
     }
   }
-}
