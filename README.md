@@ -1,3 +1,3 @@
-# popolo-spec
+# popolo-types
 
-TypeScript implementation of the popolo-spec
+Typescript definitions for working with the Popolo Project.
